@@ -1,12 +1,12 @@
-name: Run Tests on Pull Request
+name: Run Tests on PR to dev branch
 
 on:
-  pull:
+  pull_request:
     branches:
       - dev
 
 jobs:
-  test:
+  run_tests:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.11
+          python-version: 3.8
 
       - name: Install Dependencies
         run: |
