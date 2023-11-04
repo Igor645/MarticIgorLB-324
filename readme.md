@@ -6,4 +6,8 @@ Der Programmierer muss zwingend sicherstellen das er "pip install pre-commit" au
 
 ## Aufgabe 4
 
-Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
+Ich habe ein Docker Image auf Docker Hub hochgeladen auf diesem Repository:
+https://hub.docker.com/repository/docker/marticigor646464/marticigorlb-324/general
+
+mit dieser Zeile habe ich die .env variable mitgegeben:
+ENV PASSWORD="einSehrGeheimesPasswort"
