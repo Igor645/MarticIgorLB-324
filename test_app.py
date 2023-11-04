@@ -29,7 +29,6 @@ def test_add_entry(client):
     assert entry.content == "Test Entry Content"
 
 
-# this is a comment used to test the pull request
 def test_add_entry_with_happiness(client):
     response = client.post(
         "/add_entry", data={"content": "Test Entry Content", "happiness": "😃"}
