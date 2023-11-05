@@ -28,4 +28,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: marticigor646464/marticigorlb-324:${{ github.sha }}
+          tags: |
+            marticigor646464/marticigorlb-324:latest
+            marticigor646464/marticigorlb-324:${{ github.sha }}
