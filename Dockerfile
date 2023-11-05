@@ -31,4 +31,4 @@ EXPOSE 8000
 
 CMD gunicorn 'app:app' --bind=0.0.0.0:8000
 
-LABEL org.opencontainers.image.source https://github.com/igor645/zu-bbbearbeiten
+LABEL org.opencontainers.image.source https://github.com/igor645/MarticIgorLB-324
