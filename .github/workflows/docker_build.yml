@@ -31,3 +31,6 @@ jobs:
           tags: |
             marticigor646464/marticigorlb-324:latest
             marticigor646464/marticigorlb-324:${{ github.sha }}
+            
+      - name: Render deployment
+        run: curl -X POST https://api.render.com/deploy/srv-cl3q98ot3kic73dgqhs0?key=Tvi6cKcCkps

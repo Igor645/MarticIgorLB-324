@@ -14,3 +14,4 @@ https://marticigorlb-324.onrender.com
 
 mit dieser Zeile habe ich die .env variable mitgegeben:
 ENV PASSWORD="einSehrGeheimesPasswort"
+genau so hätte ich aber auch eine Environment Variable in Render.com erstellen können, was sehr wahrscheinlich die sicherere Variante wäre, da man mit dem weg, nicht das Passwort aus dem Code lesen kann.
