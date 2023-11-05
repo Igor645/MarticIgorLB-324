@@ -5,7 +5,7 @@
 Der Programmierer muss zwingend sicherstellen das er "pip install pre-commit" ausgeführt hat und so pre-commit auf seinem System hat. Dann muss er "pre-commit install" in seinem lokalen Git Repository ausführen, damit der pre-commit wirklich funktioniert.
 
 ## Aufgabe 4
-
+Mein Azure funktioniert nicht deshalb wählte ich folgenden Ablauf:
 Ich habe ein Docker Image auf Docker Hub hochgeladen auf diesem Repository:
 https://hub.docker.com/repository/docker/marticigor646464/marticigorlb-324/general
 
