@@ -31,7 +31,7 @@ class Entry:
 def index():
     return render_template("index.html", entries=entries)
 
-
+#small comment to test yml
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
