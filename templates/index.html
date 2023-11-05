@@ -18,12 +18,13 @@
         placeholder="Write your entry here..."
       ></textarea>
       <br />
-      <textarea
-        name="happiness"
-        rows="1"
-        cols="15"
-        placeholder="Your happiness..."
-      ></textarea>
+      <label for="happiness">Happiness:</label>
+      <select name="happiness" id="happiness">
+        <option value="😃">😃 Happy</option>
+        <option value="😐">😐 Neutral</option>
+        <option value="🙁"> 🙁 Sad</option>
+        <option value="😭"> 😭 Very Sad</option>
+      </select>
       <br />
       <button type="submit">Add Entry</button>
     </form>
